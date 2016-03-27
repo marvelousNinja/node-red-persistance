@@ -1,0 +1,22 @@
+{
+  "name": "node-red-persistance",
+  "version": "1.0.0",
+  "description": "Node RED persistance investigation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marvelousNinja/node-red-persistance.git"
+  },
+  "author": "Alexander Sologub",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marvelousNinja/node-red-persistance/issues"
+  },
+  "homepage": "https://github.com/marvelousNinja/node-red-persistance#readme",
+  "dependencies": {
+    "node-red": "^0.13.4"
+  }
+}
