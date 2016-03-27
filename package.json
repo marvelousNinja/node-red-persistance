@@ -4,6 +4,7 @@
   "description": "Node RED persistance investigation",
   "main": "index.js",
   "scripts": {
+    "start": "node node_modules/node-red/red.js --settings settings.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
