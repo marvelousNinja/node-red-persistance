@@ -4,3 +4,4 @@ applications:
   command: npm start
   services:
     - blob-service
+    - redis-service
