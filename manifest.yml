@@ -1,0 +1,6 @@
+---
+applications:
+- name: node-red-persistance
+  command: npm start
+  services:
+    - blob-service

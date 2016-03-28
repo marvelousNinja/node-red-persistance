@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node node_modules/node-red/red.js --settings settings.js",
+    "debug": "node-debug node_modules/node-red/red.js --settings settings.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +19,11 @@
   },
   "homepage": "https://github.com/marvelousNinja/node-red-persistance#readme",
   "dependencies": {
-    "node-red": "^0.13.4"
+    "aws-sdk": "^2.2.47",
+    "node-red": "^0.13.4",
+    "when": "^3.7.7"
+  },
+  "devDependencies": {
+    "node-inspector": "^0.12.7"
   }
 }
